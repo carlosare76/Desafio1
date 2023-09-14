@@ -48,7 +48,9 @@ namespace Desafio1
             {
                 // Las credenciales son válidas
                 MessageBox.Show("Inicio de sesión exitoso");
-
+                main form = new main();
+                form.Show();
+                this.Hide();
             }
             else
             {
